@@ -165,7 +165,7 @@ startButton.onclick = function() {
       let bonus_appears = Math.random();
       let rock_appears = Math.random();
       let spike_appears = Math.random();
-      // let wolf_appears = Math.random();
+      let wolf_appears = 1;
 
       if (bonus_appears < 0.003) {
         this.addAPretzel();
